@@ -10,7 +10,7 @@
       <a class="nav-link" href="?pg=menu">Home
       <span class="sr-only">(current)</span>
   </a>
-    </li>
+      </li>
       <li class="nav-item">
       <a class="nav-link" href="?pg=login">Login</a>
       </li>
@@ -20,6 +20,12 @@
           <li class="nav-item">
       <a class="nav-link" href="?pg=contatos">Contatos</a>
       </li>
+      <?php
+          $sql = mysqli_query($conexao,"SELECT nome,link FROM paginas ORDER BY id");
+          while($tabela = mysqli_fetch_array($sql)){
+        echo "<li><a href=?pg=$tabela[link]>$tabela[nome]</a></li>";
+      }
+        ?>
     </ul>
   </div>
   </div>
