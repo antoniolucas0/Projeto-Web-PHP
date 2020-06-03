@@ -8,24 +8,23 @@
         <div class="col-md-6 col-serv">
 		<?php
 			
-		$nome = isset($_POST["nome"])? $_POST["nome"]:null;
-		$email = isset($_POST["email"])? $_POST["email"]:null;
-		$telefone = isset($_POST["telefone"])? $_POST["telefone"]:null;
-		$assunto = isset($_POST["assunto"])? $_POST["assunto"]:null;
-		$mensagem = isset($_POST["mensagem"])? $_POST["mensagem"]:null;
+			$nome = $_POST['nome'];
+			$email = $_POST['email'];
+			$telefone = $_POST['telefone'];
+			$assunto = $_POST['assunto'];
+			$mensagem = $_POST['mensagem'];
 
-			$dados = "INSERT INTO faleconosco (nome, email,telefone,assunto,mensagem) VALUES ('$nome','$email','$telefone','$assunto','$mensagem')";
+			$dados = "INSERT INTO contatos(nome, email,telefone,assunto,mensagem) VALUES ('$nome','$email','$telefone','$assunto','$mensagem')";
 			
 			$query = mysqli_query($conexao,$dados);
 
 			if($query){
 				echo "<h4>Dados enviados com sucessso!</h4></center>";
 		    }else{
-		    	echo "<center><h4>Não foi possível enviar o e-mail. <a href=index.php?pg=faleconosco>Tente novamente.</a></h4></center>";
+		    	echo "<center><h4>Não foi possível enviar o e-mail. <a href=index.php?pg=contatos>Tente novamente.</a></h4></center>";
 		    }
 		?>
 		</div>
 	  </div>
 	</div>
-</div>
 </div>

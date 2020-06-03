@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt">
 <head>
 
 	<meta charset="utf-8">
@@ -11,12 +11,6 @@
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	</head>
-
-<div >
-        <?php
-            include_once("topo.php");    
-        ?>
-    </div>
 
 <title>Login</title>
 	<meta charset="UTF-8">
@@ -50,7 +44,9 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-33">
+						<font color="black">
 						Login Web Motos
+					</font>
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Digite um email valido!">
@@ -86,7 +82,7 @@
 							Criar nova conta?
 						</span>
 
-						<a href="cadastro.html" class="txt2 hov1">
+						<a href="?pg=cadastro" class="txt2 hov1">
 							Cadastre-se
 						</a>
 	</div>
@@ -109,10 +105,5 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 	<script src="js/main.js"></script>
 
-<div >
-        <?php
-            include_once("rodape.php");    
-        ?>
-    </div>
 </body>
 </html>

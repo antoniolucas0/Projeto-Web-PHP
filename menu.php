@@ -19,19 +19,13 @@ body {
 }
 </style>
 
-<div >
-        <?php
-            include_once("topo.php");    
-        ?>
-    </div>
-
   <div class="container">
 
     <div class="row">
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Olá, Bem vindo</h1>
+        <h1 class="my-4">WEB MOTOS</h1>
         <div class="list-group">
           <a href="#" class="list-group-item">Motos Esportivas</a>
           <a href="#" class="list-group-item">Motos Naked</a>
@@ -42,7 +36,7 @@ body {
 
       <div class="col-lg-9">
 
-        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide my-3" data-ride="carousel">
       <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -68,102 +62,84 @@ body {
             <span class="sr-only">Next</span>
           </a>
         </div>
-
+</div>
         <div class="row">
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="imagens/imagemvenda1.jpg" alt=""></a>
+            <div class="card h-80">
+          <a href="?pg=sitekawasaki"><img class="card-img-top" src="imagens/imagemvenda1.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-                <a href="#">Kawasaki ZX10r 2020</a>
+                <a href="?pg=sitekawasaki">Kawasaki ZX10r 2020</a>
               </h4>
               <h5>R$70.000</h5>
-                <p class="card-text">1.200Km / 210cv / Slider de carenagem e balança / Sistema de freio Brembo / Suspensão Showa. </p>
-              </div>
-              <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <p class="card-text">1.200Km / 210cv / Sistema de freio Brembo / Suspensão Showa. </p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="imagens/imagemvenda2.jpg" alt=""></a>
+            <div class="card h-80">
+          <a href="?pg=siteyamahar1"><img class="card-img-top" src="imagens/imagemvendaa2.jpg" alt=""></a>
           <div class="card-body">
               <h4 class="card-title">
-              <a href="#">Yamaha R1 2012</a>
+              <a href="?pg=siteyamahar1">Yamaha R6 2015</a>
               </h4>
-            <h5>R$35.900</h5>
-            <p class="card-text">40.570Km / 185cv / Escapamento Yoshimura / Filtro K&N / Remap Rapid Bike.</p>
-              </div>
-              <div class="card-footer">
-        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            <h5>R$45.900</h5>
+            <p class="card-text">40.570Km / 185cv / Escapamento Esportivo / Filtro K&N / Remap Rapid Bike.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="imagens/imagemvenda3.jpg" alt=""></a>
+            <div class="card h-80">
+        <a href="?pg=siteharley"><img class="card-img-top" src="imagens/imagemvenda3.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-            <a href="#">Harley Davidson Fatboy 2016 </a>
+            <a href="?pg=siteharley">Harley Davidson Fatboy 2016 </a>
             </h4>
             <h5>R$54.900</h5>
                 <p class="card-text">16.645Km / 86cv / Ponteiras Vance and hines / Filtro K&N com suporte de alto fluxo.</p>
               </div>
-              <div class="card-footer">
-        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/imagemvenda4.jpg" alt=""></a>
+            <div class="card h-80">
+              <a href="?pg=sitexj6"><img class="card-img-top" src="imagens/imagemvenda4.jpg" alt=""></a>
           <div class="card-body">
                 <h4 class="card-title">
-            <a href="#">Yamaha XJ6 N 2013</a>
+            <a href="?pg=sitexj6">Yamaha XJ6 N 2013</a>
                 </h4>
                 <h5>R$26.000</h5>
                 <p class="card-text">32.000Km / Escapamento original / Pneus novos / Revisada recentemente.</p>
               </div>
-              <div class="card-footer">
-        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="imagens/imagemvenda5.jpg" alt=""></a>
+            <div class="card h-80">
+          <a href="?pg=sitehonda"><img class="card-img-top" src="imagens/imagemvenda5.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-              <a href="#">Honda CRF África Twin 2017</a>
+              <a href="?pg=sitehonda">Honda CRF 2017</a>
                 </h4>
                 <h5>R$46.500</h5>
-          <p class="card-text">13.500Km / 95cv / Todas as revisões na concessionária / Moto toda original / Filtro de ar BMC. </p>
-              </div>
-              <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+          <p class="card-text">13.500Km / 95cv / Moto toda original / Filtro de ar BMC. </p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/imagemvenda6.jpg" alt=""></a>
+            <div class="card h-80">
+              <a href="?pg=sitez800"><img class="card-img-top" src="imagens/imagemvenda6.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-          <a href="#">Kawasaki Z800 Abs 2013</a>
+          <a href="?pg=sitez800">Kawasaki Z800 2013</a>
                 </h4>
                 <h5>R$29.500</h5>
             <p class="card-text">18.379Km / 113cv / Pneus novos / Escapamento esportivo / Velas de iridium. </p>
               </div>
-              <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
             </div>
           </div>
 
@@ -172,11 +148,6 @@ body {
 
 </div>
 </div>
-<div >
-        <?php
-            include_once("rodape.php");
-      ?>
-  </div>
 
 <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

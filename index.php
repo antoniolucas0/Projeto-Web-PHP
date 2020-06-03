@@ -13,7 +13,7 @@
 	include_once('topo.php');
 	?>
 	
-	<div class='container'>
+	<div class='container-xl'>
 	<?php
 	# área de conteúdo
 	if(empty($_SERVER["QUERY_STRING"])){

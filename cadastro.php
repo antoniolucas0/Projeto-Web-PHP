@@ -12,13 +12,6 @@
 
 	</head>
 
-<div >
-        <?php
-            include_once("topo.php");    
-        ?>
-    </div>
-	</nav>
-
 <title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +36,6 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-</head>
 <body>
 
 	<div class="limiter">
@@ -51,7 +43,9 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-33">
-				Cadastro Web Motos
+						<font color="black">
+		     	     Cadastro Web Motos
+			        </font>
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Digite um email valido!">
@@ -109,10 +103,5 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 	<script src="js/main.js"></script>
 
-<div >
-        <?php
-            include_once("rodape.php");    
-        ?>
-    </div>
 </body>
 </html>
